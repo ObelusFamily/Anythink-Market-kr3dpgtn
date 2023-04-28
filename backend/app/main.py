@@ -11,6 +11,7 @@ from app.core.config import get_app_settings
 from app.core.events import create_start_app_handler, create_stop_app_handler
 
 
+
 def get_application() -> FastAPI:
     settings = get_app_settings()
 
