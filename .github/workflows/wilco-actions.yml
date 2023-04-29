@@ -39,7 +39,7 @@ jobs:
       - name: Setup Node for Wilco Checks
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: "16^"
 
       - name: Wilco checks
         id: Wilco
